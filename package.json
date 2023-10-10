@@ -1,0 +1,18 @@
+{
+  "name": "food_supply",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "chai": "^4.3.8",
+    "ethers": "6.7.1",
+    "hardhat": "2.17.2",
+    "mocha": "^10.2.0"
+  }
+}
