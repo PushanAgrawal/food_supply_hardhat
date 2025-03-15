@@ -14,4 +14,9 @@ contract utils {
         string payHash;
     }
     mapping(string=>tranc) transactions;
+
+    function getTrancHash(string memory id) public view returns(string memory){
+        return transactions[id].ipfs;
+
+    }
 }

@@ -1,1 +1,6 @@
 .node_modules
+./node_modules
+artifacts/
+cache/
+food_supply_hardhat.rar
+node_modules

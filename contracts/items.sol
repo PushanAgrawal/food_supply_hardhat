@@ -17,9 +17,12 @@ contract items {
     function updateItem(string memory ipfs, string memory code,string memory itemType) internal  {
         item[code]=ipfs; 
         emit updateitemDetails(code, msg.sender, itemType, ipfs);    
+               
+    }
 
+    function getItemHash(string memory id) public view returns(string memory){
+        return item[id];
 
-                   
     }
     // function getItem()
 }
